@@ -20,5 +20,10 @@ public class Main {
                 """ + anoDeLancamento;
         System.out.println(sinopse);
 
+        int classEstrelas;
+        classEstrelas = (int) (media / 2);
+
+        System.out.printf("Aqui a classificação do filme %d ",classEstrelas);
+
     }
 }
