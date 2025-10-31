@@ -7,7 +7,7 @@ public class NumeroAleatorio {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         int numeroAleatorio = new Random().nextInt(100);
-        final int MAX_TENTATIVAS = 5;
+        int MAX_TENTATIVAS = 5;
         int tentativasRealizadas = 0;
         int chute = 0;
         //System.out.println(numeroAleatorio);
@@ -26,9 +26,7 @@ public class NumeroAleatorio {
                 System.out.println("\n*** PARABÉNS! Você acertou o número " + numeroAleatorio +
                         " em " + tentativasRealizadas + " tentativa(s)! ***");
                 break;
-            }
-
-            else if (chute < numeroAleatorio) {
+            } else if (chute < numeroAleatorio) {
                 System.out.println("➡️ O número sorteado é MAIOR do que " + chute + ".");
             } else {
                 System.out.println("⬅️ O número sorteado é MENOR do que " + chute + ".");
