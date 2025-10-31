@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.lacosRepeticao_Condicionais;
 
 import java.util.Random;
 import java.util.Scanner;
