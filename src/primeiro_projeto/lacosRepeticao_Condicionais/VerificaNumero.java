@@ -1,4 +1,4 @@
-    package Desafios.lacosRepeticao_Condicionais;
+    package primeiro_projeto.lacosRepeticao_Condicionais;
 
     import java.util.Scanner;
 
