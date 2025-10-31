@@ -7,9 +7,12 @@ public class OutroLoop {
         double nota = 0;
         int i = 0;
 
-        while (nota != -1) {
+        while (nota >= 0) {
             System.out.println("Qual sua avaliação do filme?");
             nota = leitura.nextDouble();
+            if(nota < 0 ){
+                break;
+            }
             mediaAvaliacao += nota;
             i++;
         }
