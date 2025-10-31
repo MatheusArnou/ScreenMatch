@@ -1,3 +1,5 @@
+package primeiro_projeto;
+
 import java.util.Scanner;
 
 public class Leitura {
