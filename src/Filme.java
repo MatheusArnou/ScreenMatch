@@ -21,4 +21,9 @@ public class Filme {
         double resultado = somaAvaliacoes / totalAvaliacoes;
         return resultado;
     }
+
+    //método acessor
+    int getTotalAvaliacoes(){
+        return totalAvaliacoes;
+    }
 }
