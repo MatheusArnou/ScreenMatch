@@ -5,9 +5,9 @@ public class Principal {
 
         Filme meuFilme = new Filme();
 
-        meuFilme.nome = "O poderoso chefão";
-        meuFilme.anoLancamento = 1970;
-        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setAnoLancamento(1970);
+        meuFilme.setDuracaoEmMinutos(180);
 
         //Chamada do método
         meuFilme.exibeFichaTecnica();
