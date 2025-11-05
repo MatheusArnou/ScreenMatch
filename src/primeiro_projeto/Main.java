@@ -3,7 +3,7 @@ package primeiro_projeto;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Esse é o Screen Match");
-        //System.out.println("Filme: Tog Gun: Maverick");
+        //System.out.println("br.com.alura.screenmatch.modelos.Filme: Tog Gun: Maverick");
 
         int anoDeLancamento = 2022;
         //System.out.println("Ano de lançamento: " + anoDeLancamento);
