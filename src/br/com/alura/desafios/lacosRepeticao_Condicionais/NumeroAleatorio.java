@@ -1,4 +1,4 @@
-package primeiro_projeto.lacosRepeticao_Condicionais;
+package br.com.alura.desafios.lacosRepeticao_Condicionais;
 
 import java.util.Random;
 import java.util.Scanner;

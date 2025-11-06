@@ -1,4 +1,4 @@
-package Desafios.POO;
+package br.com.alura.desafios.poo;
 
 public class Aluno {
     public String nome;
