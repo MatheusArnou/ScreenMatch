@@ -24,7 +24,8 @@ public class Principal {
         lost.setAnoLancamento(2000);
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporadas(10);
-        lost.exibeFichaTecnica();
+        lost.setMinutosPorEpisodio(50);
+        System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
 
     }
