@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -25,8 +26,19 @@ public class Principal {
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporadas(10);
         lost.setMinutosPorEpisodio(50);
-        System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos() );
+        System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
+        Filme outroFilme = new Filme();
+
+        outroFilme.setNome("Batman o cavaleiro das trevas");
+        outroFilme.setAnoLancamento(2012);
+        outroFilme.setDuracaoEmMinutos(146);
+
+        CalculadoraDeTempo calcular = new CalculadoraDeTempo();
+        calcular.inclui(meuFilme);
+        calcular.inclui(outroFilme);
+        calcular.inclui(lost);
+        System.out.println(calcular.getTempoTotal());
 
     }
 }
