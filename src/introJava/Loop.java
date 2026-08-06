@@ -1,3 +1,5 @@
+package introJava;
+
 import java.util.Scanner;
 
 public class Loop {

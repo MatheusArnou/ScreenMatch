@@ -1,4 +1,5 @@
-import java.util.Locale;
+package introJava;
+
 import java.util.Scanner;
 
 public class Leitura {
