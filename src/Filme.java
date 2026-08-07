@@ -51,8 +51,8 @@ public class Filme {
     }
 
     void exibirFicha() {
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento: " + anoDelancamento);
+        System.out.println("Nome do filme: " + getNome());
+        System.out.println("Ano de lançamento: " + getAnoDelancamento());
     }
 
     void avalia(double nota) {
