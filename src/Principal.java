@@ -11,8 +11,9 @@ public class Principal {
         meuFilme.avalia(5.75);
         double media = meuFilme.pegaMedia();
 
-        System.out.println(meuFilme.totalAvalicaoes);
-        System.out.println(meuFilme.somaAvaliacoes);
+        System.out.println("Total de avaliações: " + meuFilme.getTotalAvalicaoes());
+
+
         System.out.printf("%.2f",media);
 
     }

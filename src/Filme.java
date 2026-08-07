@@ -1,10 +1,54 @@
 public class Filme {
-    String nome;
-    int anoDelancamento;
-    boolean incluidoNoPlano;
-    double somaAvaliacoes;
-    int totalAvalicaoes;
-    int duracaoEmMinuto;
+    private String nome;
+    private int anoDelancamento;
+    private boolean incluidoNoPlano;
+    private double somaAvaliacoes;
+    private int totalAvalicaoes;
+    private int duracaoEmMinuto;
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    public void setIncluidoNoPlano(boolean ehDoPlano){
+        incluidoNoPlano = ehDoPlano;
+    }
+    public void setAnoDelancamento(int anoDelancamento){
+        this.anoDelancamento = anoDelancamento;
+    }
+    public void setSomaAvaliacoes(double somaAvaliacoes){
+        this.somaAvaliacoes = somaAvaliacoes;
+    }
+    public void setTotalAvalicaoes(int total){
+        totalAvalicaoes = total;
+    }
+
+    public void setDuracaoEmMinuto(int duracaoEmMinuto) {
+        this.duracaoEmMinuto = duracaoEmMinuto;
+    }
+
+    int getTotalAvalicaoes(){
+        return totalAvalicaoes;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDelancamento() {
+        return anoDelancamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public double getSomaAvaliacoes() {
+        return somaAvaliacoes;
+    }
+
+    public int getDuracaoEmMinuto() {
+        return duracaoEmMinuto;
+    }
 
     void exibirFicha() {
         System.out.println("Nome do filme: " + nome);
