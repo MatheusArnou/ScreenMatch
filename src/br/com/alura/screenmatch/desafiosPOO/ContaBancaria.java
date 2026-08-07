@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.desafios;
+package br.com.alura.screenmatch.desafiosPOO;
 /*
 * Crie uma classe ContaBancaria com os seguintes atributos:
 * numeroConta (privado), saldo (privado) e titular (publico).
