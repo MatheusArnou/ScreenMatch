@@ -4,15 +4,15 @@ package introJava;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Filme: Top Gun: Maverick");
+        System.out.println("br.com.alura.screenmatch.model.Filme: Top Gun: Maverick");
         int anoDeLancamento = 2022;
         boolean incluidoNoPlano = true;
         double notaDoFilme = (9.8 + 6.3 + 8.0) / 3;
         int classificacao = (int) notaDoFilme / 2;
         String sinopse;
         sinopse = """
-                  Filme Top Gun
-                  Filme de aventura com gala dos anos 80
+                  br.com.alura.screenmatch.model.Filme Top Gun
+                  br.com.alura.screenmatch.model.Filme de aventura com gala dos anos 80
                   nota %.2f
                   Muito bom!
                   Ano de lançamento %d

@@ -10,7 +10,7 @@ public class Condicionais {
         if (anoDeLancamento >= 2022) {
             System.out.println("Lançamento que os clientes estão curtindo");
         } else {
-            System.out.println("Filme retrô que vale a pena ver de novo!");
+            System.out.println("br.com.alura.screenmatch.model.Filme retrô que vale a pena ver de novo!");
         }
 
         if(incluidoNoPlano || tipoPlano.equals("plus")){
