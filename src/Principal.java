@@ -16,7 +16,7 @@ public class Principal {
         System.out.println("Total de avaliações: " + meuFilme.getTotalAvalicaoes());
 
 
-        System.out.printf("%.2f",media);
+        System.out.printf("%.2f", media);
 
     }
 }

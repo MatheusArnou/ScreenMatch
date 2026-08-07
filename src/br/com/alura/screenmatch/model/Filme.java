@@ -8,19 +8,23 @@ public class Filme {
     private int totalAvalicaoes;
     private int duracaoEmMinuto;
 
-    public void setNome(String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setIncluidoNoPlano(boolean ehDoPlano){
+
+    public void setIncluidoNoPlano(boolean ehDoPlano) {
         incluidoNoPlano = ehDoPlano;
     }
-    public void setAnoDelancamento(int anoDelancamento){
+
+    public void setAnoDelancamento(int anoDelancamento) {
         this.anoDelancamento = anoDelancamento;
     }
-    public void setSomaAvaliacoes(double somaAvaliacoes){
+
+    public void setSomaAvaliacoes(double somaAvaliacoes) {
         this.somaAvaliacoes = somaAvaliacoes;
     }
-    public void setTotalAvalicaoes(int total){
+
+    public void setTotalAvalicaoes(int total) {
         totalAvalicaoes = total;
     }
 
@@ -28,7 +32,7 @@ public class Filme {
         this.duracaoEmMinuto = duracaoEmMinuto;
     }
 
-    public int getTotalAvalicaoes(){
+    public int getTotalAvalicaoes() {
         return totalAvalicaoes;
     }
 
