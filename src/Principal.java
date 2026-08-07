@@ -1,4 +1,5 @@
 import br.com.alura.screenmatch.model.Filme;
+import br.com.alura.screenmatch.model.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -17,6 +18,15 @@ public class Principal {
 
 
         System.out.printf("%.2f", media);
+
+        Serie serie = new Serie();
+        serie.setNome("Lost");
+        serie.setAnoDelancamento(2000);
+        serie.exibirFicha();
+        serie.setTempodoras(10);
+        serie.setEpPorTemp(10);
+        serie.setMinPorEp(50);
+        System.out.println("Tempo para maratonar a série: " + serie.getDuracaoEmMinuto()+ "Hr(s)");
 
     }
 }
