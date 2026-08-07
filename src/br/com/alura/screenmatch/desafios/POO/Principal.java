@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.desafiosPOO;
+package br.com.alura.screenmatch.desafios.POO;
 
 public class Principal {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Principal {
         System.out.println(produto.aplicarDesconto(10));
 
         Aluno aluno = new Aluno();
-        System.out.println(aluno.calcularNota(10,7,8));
+        System.out.println(aluno.calcularNota(10, 7, 8));
 
         Livro livro = new Livro();
         livro.setTitulo("Cansação para ninar menino grande");

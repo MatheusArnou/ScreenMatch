@@ -20,6 +20,7 @@ public class CalcualdoraDeTempo {
 //        tempoTotal += s.getDuracaoEmMinuto();
 //    }
     public void inclui(Titulo t) {
+        //System.out.println("Adicionando tempo de: " + t);
         tempoTotal += t.getDuracaoEmMinuto();
     }
 }
