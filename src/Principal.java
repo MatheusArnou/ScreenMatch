@@ -5,9 +5,15 @@ public class Principal {
         meuFilme.anoDelancamento = 1970;
         meuFilme.duracaoEmMinuto = 180;
 
-        System.out.println(meuFilme.nome);
-        System.out.println(meuFilme.anoDelancamento);
+        meuFilme.exibirFicha();
+        meuFilme.avalia(7.7);
+        meuFilme.avalia(8);
+        meuFilme.avalia(5.75);
+        double media = meuFilme.pegaMedia();
 
+        System.out.println(meuFilme.totalAvalicaoes);
+        System.out.println(meuFilme.somaAvaliacoes);
+        System.out.printf("%.2f",media);
 
     }
 }
