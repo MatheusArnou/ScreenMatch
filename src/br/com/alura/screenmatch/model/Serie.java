@@ -40,6 +40,6 @@ public class Serie extends Titulo{
 
     @Override
     public int getDuracaoEmMinuto(){
-        return (tempodoras * epPorTemp * minPorEp) / 60;
+        return tempodoras * epPorTemp * minPorEp;
     }
 }

@@ -1,5 +1,6 @@
 import br.com.alura.screenmatch.model.Filme;
 import br.com.alura.screenmatch.model.Serie;
+import br.com.alura.screenmatch.util.CalcualdoraDeTempo;
 
 public class Principal {
     public static void main(String[] args) {
@@ -7,6 +8,11 @@ public class Principal {
         meuFilme.setNome("Poderoso chefão");
         meuFilme.setAnoDelancamento(1970);
         meuFilme.setDuracaoEmMinuto(180);
+
+        Filme outroFilme = new Filme();
+        outroFilme.setNome("Avatar");
+        outroFilme.setAnoDelancamento(2022);
+        outroFilme.setDuracaoEmMinuto(200);
 
         meuFilme.exibirFicha();
         meuFilme.avalia(7.7);
@@ -26,7 +32,14 @@ public class Principal {
         serie.setTempodoras(10);
         serie.setEpPorTemp(10);
         serie.setMinPorEp(50);
-        System.out.println("Tempo para maratonar a série: " + serie.getDuracaoEmMinuto()+ "Hr(s)");
+        System.out.println("Tempo para maratonar a série: " + serie.getDuracaoEmMinuto());
+
+        CalcualdoraDeTempo calculadora = new CalcualdoraDeTempo();
+        calculadora.inclui(meuFilme);
+        calculadora.inclui(outroFilme);
+        calculadora.inclui(serie);
+        System.out.printf("Tempo total para os filmes listados: %d minutos%n", calculadora.getTempoTotal());
+
 
     }
 }
