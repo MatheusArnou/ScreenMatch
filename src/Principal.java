@@ -82,5 +82,7 @@ public class Principal {
         System.out.println("Duração: " + listaDeFilmes.get(0).getDuracaoEmMinuto());
         System.out.println("Classe: " + listaDeFilmes.get(0).getClass());
         //ou getFirst(), getLast() e getClass()
+
+        System.out.println(listaDeFilmes);
     }
 }
