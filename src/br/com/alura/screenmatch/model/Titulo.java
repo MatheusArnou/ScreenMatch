@@ -8,16 +8,14 @@ public class Titulo {
     private int totalAvalicaoes;
     private int duracaoEmMinuto;
 
-    public void setNome(String nome) {
+    public Titulo(String nome, int anoDelancamento) {
         this.nome = nome;
+        this.anoDelancamento = anoDelancamento;
     }
+
 
     public void setIncluidoNoPlano(boolean ehDoPlano) {
         incluidoNoPlano = ehDoPlano;
-    }
-
-    public void setAnoDelancamento(int anoDelancamento) {
-        this.anoDelancamento = anoDelancamento;
     }
 
     public void setSomaAvaliacoes(double somaAvaliacoes) {

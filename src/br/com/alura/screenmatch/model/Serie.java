@@ -6,6 +6,10 @@ public class Serie extends Titulo{
     private int epPorTemp;
     private int minPorEp;
 
+    public Serie(String nome, int anoDelancamento) {
+        super(nome, anoDelancamento);
+    }
+
     public int getTempodoras() {
         return tempodoras;
     }
