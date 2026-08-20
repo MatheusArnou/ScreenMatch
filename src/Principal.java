@@ -8,13 +8,11 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("Poderoso chefão");
+        Filme meuFilme = new Filme("Poderoso chefão");
         meuFilme.setAnoDelancamento(1970);
         meuFilme.setDuracaoEmMinuto(180);
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Avatar");
+        Filme outroFilme = new Filme("Avatar");
         outroFilme.setAnoDelancamento(2022);
         outroFilme.setDuracaoEmMinuto(200);
 
@@ -53,12 +51,11 @@ public class Principal {
         ep.setTotalAvaliacoes(300);
         filtro.filtra(ep);
 
-        Filme filmeMatheus = new Filme();
+        Filme filmeMatheus = new Filme("Dogville");
         // ou var filmeMatheus = new Filme(); -> Inferência, não podemos trocar o tipo de dado Ex: filmeMatheus = 10;
 
 
         System.out.println("");
-        filmeMatheus.setNome("Dogville");
         filmeMatheus.setDuracaoEmMinuto(200);
         filmeMatheus.setAnoDelancamento(2003);
         filmeMatheus.avalia(10);
